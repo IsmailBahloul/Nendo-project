@@ -1,0 +1,119 @@
+::before,
+::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primaryColor: #948c3b;
+  --secondaryColor: #661660;
+  --textColor: #f0eff4;
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.5),
+    0 4px 6px -2px rgba(0, 0, 0, 0.7);
+}
+div {
+  height: 100%;
+}
+.banner-header {
+  background: var(--secondaryColor);
+  height: 12rem;
+  position: sticky;
+  box-shadow: var(--shadow-3);
+}
+.banner-img {
+  display: block;
+  margin: auto;
+  padding-top: 2rem;
+}
+.bg1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/bg1.jpg") center / cover no-repeat fixed;
+}
+.bg2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/bg4.jpg") center / cover no-repeat fixed;
+}
+.bg3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/bg6.jpg") center / cover no-repeat fixed;
+}
+.bg4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/bg2.jpg") center / cover no-repeat fixed;
+}
+.bg5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/bg8.jpg") center / cover no-repeat fixed;
+}
+.bg6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/bg9.jpg") center / cover no-repeat fixed;
+}
+.bg7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/bg3.jpg") center / cover no-repeat fixed;
+}
+.bg8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/bg7.jpg") center / cover no-repeat fixed;
+}
+.bg9 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/bg5.jpg") center / cover no-repeat fixed;
+}
+.bg10 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/bg10.jpg") center / cover no-repeat fixed;
+}
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+.bg5,
+.bg6,
+.bg7,
+.bg8,
+.bg9,
+.bg10 {
+  display: block;
+  text-align: center;
+  min-height: 45vh;
+}
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+.bg5,
+.bg6,
+.bg7,
+.bg8,
+.bg9,
+.bg10 h1 {
+  margin: 0 auto;
+  padding: 2rem;
+  color: var(--primaryColor);
+}
+.title {
+  /* margin-top: 5rem; */
+  height: 0;
+}
+.title-underline {
+  border-top: 5px solid var(--primaryColor);
+  border-radius: 5%;
+  width: 45vw;
+  height: 5px;
+  margin: -1rem auto;
+}
+.para {
+  background: var(--primaryColor);
+  color: var(--textColor);
+  padding: 3.5rem;
+  font-size: 1.5rem;
+  box-shadow: var(--shadow-3);
+}
+
+.para span {
+  font-weight: bold;
+}
